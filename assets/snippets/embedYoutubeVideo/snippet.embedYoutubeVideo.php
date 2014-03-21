@@ -41,4 +41,3 @@ else $videoId = $videoIdStr;
 if($videoServer=='http://youtu.be/')$videoId = substr($videoLink, 16);
 $output = '<div class="video"><iframe width="' . $videoDimension[0] . '" height="' . $videoDimension[1] . '" src="//www.youtube.com/embed/'.$videoId.'?rel=0" frameborder="0" allowfullscreen></iframe></div>';
 return $output;
-?>
