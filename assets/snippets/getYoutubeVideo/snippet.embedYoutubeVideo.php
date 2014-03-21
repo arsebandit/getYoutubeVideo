@@ -1,7 +1,7 @@
 <?php
 if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 /**
- * getYoutubeVideo
+ * embedYoutubeVideo
  * 
  * Embed video from Youtube
  *
@@ -19,7 +19,7 @@ if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 /*
 
 Example
-[[getYoutubeVideo?videoLink=`[+tv.youtube+]` &dimension=`328,246`]]
+[[embedYoutubeVideo?videoLink=`[+tv.youtube+]` &dimension=`328,246`]]
 
 */
 
