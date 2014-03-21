@@ -1,6 +1,6 @@
 ﻿//<?php
 /**
- * getYoutubeVideo
+ * embedYoutubeVideo
  * 
  * Embed Youtube Video
  *
@@ -12,4 +12,4 @@
  * @internal    @installset base, sample
  */
 
-return require MODX_BASE_PATH.'assets/snippets/getYoutubeVideo/snippet.getYoutubeVideo.php';
+return require MODX_BASE_PATH.'assets/snippets/embedYoutubeVideo/snippet.embedYoutubeVideo.php';
